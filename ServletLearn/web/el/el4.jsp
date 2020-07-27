@@ -8,9 +8,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>test</title>
+    <title>el4隐式对象</title>
 </head>
 <body>
 
+<h3>动态获取虚拟目录</h3>
+${pageContext.request.contextPath}
+
+<%
+    response.sendRedirect(request.getContextPath() + "");
+%>
 </body>
 </html>
