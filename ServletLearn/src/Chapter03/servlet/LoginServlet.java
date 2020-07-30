@@ -13,7 +13,7 @@ import java.io.IOException;
  * @Author: Wang Shiyu
  * @Date: 2020/7/26/18:22
  */
-@WebServlet("/LoginServlet")
+@WebServlet("/LoginServlet1")
 public class LoginServlet extends HttpServlet {
 
     @Override
@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
             // 存储信息到request
             req.setAttribute("login_error", "用户名或密码错误");
             // 转发到登录页面
-            req.getRequestDispatcher("/jsp/login.jsp").forward(req, resp);
+            req.getRequestDispatcher("/jsp/login1.jsp").forward(req, resp);
         }
 
     }

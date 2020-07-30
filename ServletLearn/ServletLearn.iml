@@ -33,7 +33,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="Book" />
     <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
+    <orderEntry type="library" name="lib" level="application" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.18" level="application" />
+    <orderEntry type="module" module-name="Book" />
   </component>
 </module>
